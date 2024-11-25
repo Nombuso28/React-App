@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html {
+  background: linear-gradient(
+    180.3deg,
+    rgb(255, 255, 255) 30%,
+    rgb(164, 185, 205) 90.2%
+  );
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  color: #885df1;
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  background: rgb(158 156 156 / 10%);
+  box-shadow: 0 8px 32px 0 rgba(123, 128, 197, 0.37);
+  border-radius: 16px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.search-form-input {
+  border: none;
+  border-radius: 10px;
+  width: 75%;
+  padding: 20px;
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+}
+
+.search-form-button {
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 16px;
+  background: linear-gradient(
+    180.3deg,
+    rgb(244, 241, 241) 30%,
+    rgb(164, 185, 205) 90.2%
+  );
+  color: rgba(39, 33, 66, 0.4);
+  margin-left: 3px;
+}
